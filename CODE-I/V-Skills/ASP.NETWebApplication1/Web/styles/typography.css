@@ -1,0 +1,14 @@
+
+
+input {
+    font-size: 1rem;
+    border: 1px solid #ccc;
+}
+
+button {
+    font-size: 1rem;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
