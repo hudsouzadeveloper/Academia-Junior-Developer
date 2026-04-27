@@ -1,0 +1,56 @@
+/* Base Skeleton Animation */
+
+.skeleton-loading * {
+    visibility: hidden !important;
+}
+
+.skeleton-loading {
+    /* Sua animação de background aqui */
+    background: linear-gradient(90deg, #e0e0e0 25%, #f0f0f0 50%, #e0e0e0 75%);
+    background-size: 200% 100%;
+    animation: skeleton-loading 1.5s infinite;
+}
+
+@keyframes skeleton-loading {
+    0% {
+        background-position: 200% 0;
+    }
+
+    100% {
+        background-position: -200% 0;
+    }
+}
+
+/* Element-Specific Styles */
+.skeleton-logo {
+    height: 40px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.skeleton-text {
+    height: 16px;
+    margin-bottom: 8px;
+}
+
+.skeleton-heading {
+    height: 24px;
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+.skeleton-input {
+    height: 40px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.skeleton-button {
+    height: 36px;
+    width: 100px;
+}
+
+.skeleton-footer-line {
+    height: 10px;
+    margin-top: 20px;
+}
